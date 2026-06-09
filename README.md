@@ -90,7 +90,7 @@ Une liste de ressources utiles pour les entrepôts de données de santé (EDS)
 - [Entrepôts de données EDS (Ministère de la Santé)](https://sante.gouv.fr/systeme-de-sante/numerique-en-sante/sih/entrepots-de-donnees-eds/) - Cadre institutionnel et appels à projets.
 
 ## Ressources, formations & documentation
-
+- [Interhop](https://interhop.org/) - InterHop.org promeut et développe l'utilisation du logiciel libre et open source pour la recherche en santé.
 - [Starter kit EDS (Health Data Hub)](https://www.health-data-hub.fr/starter-kit-EDS) - Boîte à outils pour monter un EDS de bout en bout.
 - [Documentation collaborative du SNDS](https://documentation-snds.health-data-hub.fr/) - Référence sur les données du SNDS et leur transformation OMOP.
 - [Traitement des données PMSI avec R](https://guillaumepressiat.github.io/pmeasyr-book/) - Livret d'exemples d'analyses PMSI avec `pmeasyr`.
