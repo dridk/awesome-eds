@@ -48,7 +48,7 @@ Une liste de ressources utiles pour les entrepôts de données de santé (EDS)
 ## Bases de données
 
 - [clickhouse](https://clickhouse.com/) - Base de données OLAP très efficace
-- [duckdb](https://nifi.apache.org/)](https://duckdb.org/) - Le couteau suisse de la donnée. 
+- [duckdb](https://duckdb.org/) - Le couteau suisse de la donnée. 
 
 
 ## Bibliothèques
