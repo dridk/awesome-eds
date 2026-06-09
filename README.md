@@ -5,6 +5,7 @@ Une liste de ressources utiles pour les entrepôts de données de santé (EDS)
 - [Standards & modèles de données](#standards--modèles-de-données)
 - [Terminologies & ontologies](#terminologies--ontologies)
 - [ETL & orchestration](#etl--orchestration)
+- [Bases de données](#bases--de-données)
 - [Bibliothèques](#bibliothèques)
 - [Traitement du langage naturel (TAL)](#traitement-du-langage-naturel-tal)
 - [Plateformes ouvertes](#plateformes-ouvertes)
@@ -43,6 +44,12 @@ Une liste de ressources utiles pour les entrepôts de données de santé (EDS)
 - [Mage](https://www.mage.ai/) - Un orchestrateur très graphique ressemblant à des notebook jupyter.
 - [dbt](https://www.getdbt.com/) - Transformation de données en SQL versionné, utile pour construire les couches de mapping vers OMOP.
 - [Nifi](https://nifi.apache.org/) -  Outil open source d'automatisation et de gestion de flux de données avec une interface graphique.
+
+## Bases de données
+
+- [clickhouse](https://clickhouse.com/) - Base de données OLAP très efficace
+- [duckdb](https://nifi.apache.org/)](https://duckdb.org/) - Le couteau suisse de la donnée. 
+
 
 ## Bibliothèques
 - [pypmsi](https://guillaumepressiat.github.io/pypmsi) - Package Python pour importer, gérer et exploiter les données PMSI (MCO, SSR, HAD, PSY, RSF).
