@@ -96,13 +96,13 @@ Une liste de ressources utiles pour les entrepôts de données de santé (EDS)
 ## Cadre réglementaire & gouvernance
 
 - [Référentiel EDS de la CNIL](https://www.cnil.fr/) - Cadre de conformité (délibération n° 2021-123) pour la constitution d'un entrepôt de données de santé.
+- [Presentation juridique sur la constitution des EDS](https://girci-idf.fr/wp-content/uploads/2023/10/20230704_Webinaire-Juridique_Constitution-d_un-EDS.pdf) - Si vous ne comprenez rien à la réglementation. Très bon document. 
 - [Cartographie des EDS en France (CNIL)](https://www.cnil.fr/fr/explorez-la-cartographie-des-entrepots-de-donnees-de-sante-en-france) - Recensement des EDS déclarés sur le territoire.
 - [Health Data Hub](https://www.health-data-hub.fr/) - Plateforme nationale des données de santé.
 - [Entrepôts de données EDS (Ministère de la Santé)](https://sante.gouv.fr/systeme-de-sante/numerique-en-sante/sih/entrepots-de-donnees-eds/) - Cadre institutionnel et appels à projets.
 
 ## Ressources, formations & documentation
 - [Interhop](https://interhop.org/) - InterHop.org promeut et développe l'utilisation du logiciel libre et open source pour la recherche en santé.
-- [Webinar EDS](https://girci-idf.fr/wp-content/uploads/2023/10/20230704_Webinaire-Juridique_Constitution-d_un-EDS.pdf) - Si vous ne comprenez rien à la réglementation. Très bon document. 
 - [Starter kit EDS (Health Data Hub)](https://www.health-data-hub.fr/starter-kit-EDS) - Boîte à outils pour monter un EDS de bout en bout.
 - [Documentation collaborative du SNDS](https://documentation-snds.health-data-hub.fr/) - Référence sur les données du SNDS et leur transformation OMOP.
 - [Traitement des données PMSI avec R](https://guillaumepressiat.github.io/pmeasyr-book/) - Livret d'exemples d'analyses PMSI avec `pmeasyr`.
