@@ -1,5 +1,4 @@
-# Awesome EDS - Entrepôts de Données de Santé      
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome EDS - Entrepôts de Données de Santé [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 Une liste de ressources utiles pour les entrepôts de données de santé (EDS) 
 ## Sommaire
 
