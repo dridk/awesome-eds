@@ -49,20 +49,23 @@ Une liste de ressources utiles pour les entrepôts de données de santé (EDS)
 
 - [clickhouse](https://clickhouse.com/) - Base de données OLAP très efficace
 - [duckdb](https://duckdb.org/) - Le couteau suisse de la donnée. 
-
+- [chromadb](https://www.trychroma.com/) - Un base de données vectorielle pour faire un RAG.
 
 ## Bibliothèques
 - [pypmsi](https://guillaumepressiat.github.io/pypmsi) - Package Python pour importer, gérer et exploiter les données PMSI (MCO, SSR, HAD, PSY, RSF).
 - [pmeasyr](https://github.com/GuillaumePressiat/pmeasyr) - Package R pour importer, gérer et exploiter les données PMSI (MCO, SSR, HAD, PSY, RSF).
 - [eds-scikit](https://github.com/aphp/eds-scikit) - Boîte à outils Python pour l'analyse de données OMOP issues d'un EDS (AP-HP).
 - [unword](https://github.com/dridk/unword) - Conversion des ancien fichier word (*.doc) en markdown
-  
-## Traitement du langage naturel (TAL)
 - [EDS-NLP](https://github.com/aphp/edsnlp) - Framework de NLP clinique francophone (règles + deep learning), compatible spaCy et PyTorch, développé à l'AP-HP.
+
+## Pseudonymisation et anonymisation
+
 - [eds-pseudo](https://github.com/aphp/eds-pseudo) - Modèle hybride de pseudonymisation des comptes-rendus cliniques, basé sur EDS-NLP.
 - [unpii](https://github.com/dridk/unpii) - Outi de pseudonymisation basé sur des regexp écrit en Rust avec un backend python. Très rapide.
 - [incognito](https://micropot.github.io/incognito/) - Outil de pseudonymisation basé sur des regexpm écrit en python
 - [Presidio](https://github.com/microsoft/presidio) - Librarie de microsoft pour pseudonymiser des documents. Pas de bon support en français.
+-  [Open AI Privacy Filter](https://huggingface.co/openai/privacy-filter) - Modèle de pseudonymisation
+
 ## Plateformes ouvertes
 
 - [Jupyter](https://jupyter.org/) - Une plateforme d'analyse pour les datascientist.
@@ -98,6 +101,7 @@ Une liste de ressources utiles pour les entrepôts de données de santé (EDS)
 
 ## Ressources, formations & documentation
 - [Interhop](https://interhop.org/) - InterHop.org promeut et développe l'utilisation du logiciel libre et open source pour la recherche en santé.
+- [Webinar EDS](https://girci-idf.fr/wp-content/uploads/2023/10/20230704_Webinaire-Juridique_Constitution-d_un-EDS.pdf) - Si vous ne comprenez rien à la réglementation. Très bon document. 
 - [Starter kit EDS (Health Data Hub)](https://www.health-data-hub.fr/starter-kit-EDS) - Boîte à outils pour monter un EDS de bout en bout.
 - [Documentation collaborative du SNDS](https://documentation-snds.health-data-hub.fr/) - Référence sur les données du SNDS et leur transformation OMOP.
 - [Traitement des données PMSI avec R](https://guillaumepressiat.github.io/pmeasyr-book/) - Livret d'exemples d'analyses PMSI avec `pmeasyr`.
