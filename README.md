@@ -8,7 +8,7 @@ Une liste de ressources utiles pour les entrepôts de données de santé (EDS)
 - [Bibliothèques](#bibliothèques)
 - [Traitement du langage naturel (TAL)](#traitement-du-langage-naturel-tal)
 - [Plateforme ouverte](#plateforme-ouverte)
-- [Plateforme propriétaire](#plateforme-ferme)
+- [Plateforme propriétaire](#plateforme-proprietaire)
 - [Jeux de données](#jeux-de-données)
 - [Cadre réglementaire & gouvernance](#cadre-réglementaire--gouvernance)
 - [Institutions, réseaux & communautés](#institutions-réseaux--communautés)
@@ -32,14 +32,18 @@ Une liste de ressources utiles pour les entrepôts de données de santé (EDS)
 - [LOINC](https://loinc.org/) - Codification des examens de biologie et observations cliniques.
 - [CIM-10 / ICD-10](https://icd.who.int/) - Classification internationale des maladies (OMS).
 - [CCAM](https://www.atih.sante.fr/) - Classification commune des actes médicaux (France, ATIH).
+- [SMT au format parquet](https://www.data.gouv.fr/datasets/terminologie-medicale-au-format-parquet) - Ontologie (ATC, CIM10, CCAM, CIM10) du SMT au format parquet.
 
 ## ETL & orchestration
 
 - [Apache Airflow](https://airflow.apache.org/) - Orchestrateur de workflows par DAG, courant pour piloter les pipelines d'alimentation d'un EDS.
-- [Dagster](https://dagster.io/) - Orchestrateur orienté *data assets*, avec typage, tests et observabilité des pipelines.
+- [Airflow](https://airflow.apache.org) - Orchestrateur orienté *tâches* dans un écosystème python.
+- [Dagster](https://dagster.io/) - Orchestrateur orienté *resultat*, avec typage, tests et observabilité des pipelines dans un écosystème python.
+- [Prefect](https://www.prefect.io/) - Un autre oprchestrateur en Python.
+- [Mage](https://www.mage.ai/) - Un orchestrateur très graphique ressemblant à des notebook jupyter.
 - [dbt](https://www.getdbt.com/) - Transformation de données en SQL versionné, utile pour construire les couches de mapping vers OMOP.
-- [Nifi](https://nifi.apache.org/) - ETL ezr
-- 
+- [Nifi](https://nifi.apache.org/) -  Outil open source d'automatisation et de gestion de flux de données avec une interface graphique.
+
 ## Bibliothèques
 - [pypmsi](https://guillaumepressiat.github.io/pypmsi) - Package Python pour importer, gérer et exploiter les données PMSI (MCO, SSR, HAD, PSY, RSF).
 - [pmeasyr](https://github.com/GuillaumePressiat/pmeasyr) - Package R pour importer, gérer et exploiter les données PMSI (MCO, SSR, HAD, PSY, RSF).
@@ -54,7 +58,10 @@ Une liste de ressources utiles pour les entrepôts de données de santé (EDS)
 
 ## Plateformes ouvertes
 
-- [LinkR](https://linkr.interhop.org/) - Plateforme open source de data science sur EDS (modèle OMOP) permettant à cliniciens et data scientists de collaborer sans coder (InterHop).
+- [Jupyter](https://jupyter.org/) - Une plateforme d'analyse pour les datascientist.
+- [Marimo](https://marimo.io/) - une alternative à Jupyter très appréciée à Brest.
+- [JupyterLite](https://chu-brest.github.io/jupyter-lite) - Une instance client only de jupyter lite avec duckdb et pola.rs
+- [LinkR](https://linkr.interhop.org/) - Plateforme open source de data science sur EDS permettant à cliniciens et data scientists de collaborer.
 - [LibreDataHub](https://interhop.org/) - Environnement de data science hébergeable en interne (HDS) pour l'apprentissage et l'analyse de données de santé (InterHop).
 - [OHDSI Broadsea](https://github.com/OHDSI/Broadsea) - Déploiement conteneurisé de la suite d'outils OHDSI.
 - [OHDSI ATLAS](https://github.com/OHDSI/Atlas) - Interface web de définition de cohortes et d'analyses sur des données OMOP.
@@ -62,18 +69,19 @@ Une liste de ressources utiles pour les entrepôts de données de santé (EDS)
 - [LibreDataHub](https://libredatahub.org/) - Plateforme datascience ouverte 
 - [Termose](https://chu-brest.github.io/termose/) - Explorateur de terminologie SMT.
 
-## Plateformes fermées
+## Plateformes propriétaires
 
 - [Arkhn](https://www.arkhn.com/fr/eds) - une solution d'EDS assez moderne proposant des fonctionnalités basé sur des LLM/   
 - [Codoc](https://www.codoc.co/fr) - Une suite d'applications et une solution d'entrepôt de données de santé pour démocratiser l'usage de la donnée médicale dans les établissements de santé. 
-- [Ehop](https://www.enovacom.com/solution/ehop-lentrepot-de-donnees-dedie-a-la-reutilisation-de-donnees-de-vie-reelles) - Une solution d'EDS basé sur des technologies  assez anciennes ( php / oracle ).
+- [Ehop](https://www.enovacom.com/solution/ehop-lentrepot-de-donnees-dedie-a-la-reutilisation-de-donnees-de-vie-reelles) - Une solution d'EDS basé sur des technologies  d'un autre âge ( php / oracle ).
   
 ## Jeux de données
 
 - [MIMIC-IV](https://physionet.org/content/mimiciv/) - Base de données de réanimation en accès contrôlé (PhysioNet), de référence pour la recherche.
-- 
 - [eICU Collaborative Research Database](https://physionet.org/content/eicu-crd/) - Données multicentriques de soins critiques.
+- [Open DAMIR](https://www.data.gouv.fr/datasets/open-damir-base-complete-sur-les-depenses-dassurance-maladie-interregimes) -base complète sur les dépenses d'assurance maladie interrégimes
 
+ 
 ## Cadre réglementaire & gouvernance
 
 - [Référentiel EDS de la CNIL](https://www.cnil.fr/) - Cadre de conformité (délibération n° 2021-123) pour la constitution d'un entrepôt de données de santé.
